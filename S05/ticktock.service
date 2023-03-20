@@ -1,0 +1,8 @@
+[Unit]
+Description=Tick Tock
+
+[Service]
+ExecStart=/usr/sbin/ticktock
+
+[Install]
+WantedBy=multi-user.target
